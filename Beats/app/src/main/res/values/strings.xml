@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Beats</string>
+    <string name="tagLine">Make It Right</string>
+    <string name="versionNumber">version 1.0.0</string>
+    <string name="world_of_music">Beats-Make it Right</string>
+    <string name="favourites_text">Favourites</string>
+    <string name="playlist_text">Playlist</string>
+    <string name="song_name">Life Goes On</string>
+    <string name="artist_name">BTS</string>
+    <string name="back_btn">Back</string>
+    <string name="favourites_btn">Favourites</string>
+    <string name="shuffle_btn">Shuffle</string>
+    <string name="repeat_btn">Repeat</string>
+    <string name="timer_btn">Timer</string>
+    <string name="equalizer_btn">Equalizer</string>
+    <string name="share_btn">Share</string>
+    <string name="playlist_btn">Playlist</string>
+    <string name="start_tv">00:00</string>
+    <string name="end_tv">Loading..</string>
+    <string name="song_album">Be Cover</string>
+    <string name="search">Search Songs...</string>
+</resources>

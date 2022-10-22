@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#322F3D"
+    tools:context=".MainActivity2">
+
+<!--    <Button-->
+<!--        android:id="@+id/loginB"-->
+<!--        style="@style/Widget.AppCompat.Button.Borderless"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:drawableTop="@drawable/login_icon"-->
+<!--        android:fontFamily="@font/mukta_semibold"-->
+<!--        android:onClick="startLoginActivity"-->
+<!--        app:layout_constraintRight_toRightOf="@id/mainLinear"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/mainLinear"-->
+<!--        android:contentDescription="login"-->
+<!--        android:text="Login"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="18dp"/>-->
+
+
+<!--        <androidx.appcompat.widget.SearchView-->
+<!--            android:id="@+id/searchViw"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="18dp"-->
+<!--            android:layout_marginBottom="18dp"-->
+<!--            android:background="@drawable/search_shape"-->
+<!--            app:iconifiedByDefault="false"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/musicRV"-->
+<!--            app:layout_constraintLeft_toLeftOf="parent"-->
+<!--            app:layout_constraintRight_toRightOf="parent"-->
+<!--            app:layout_constraintTop_toTopOf="parent"-->
+<!--            app:queryHint="Search Songs..."-->
+<!--            app:queryBackground="@android:color/transparent"-->
+<!--            />-->
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/musicRV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="18dp">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+         <Button
+             android:id="@+id/signOutButton"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+            app:layout_constraintRight_toRightOf="parent"
+             app:layout_constraintBottom_toBottomOf="parent"
+             android:text="Log Out"
+             />
+<!--    <LinearLayout-->
+<!--        android:id="@+id/secondLinear"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent">-->
+
+<!--        <Button-->
+<!--            style="@style/Widget.AppCompat.Button.Borderless"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:contentDescription="shuffle"-->
+<!--            android:drawableTop="@drawable/shufle_icon"-->
+<!--            android:fontFamily="@font/mukta_semibold"-->
+<!--            android:text="Shuffle"-->
+<!--            android:onClick="playerActivity"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18dp"-->
+
+<!--          />-->
+
+<!--        <Button-->
+<!--            style="@style/Widget.AppCompat.Button.Borderless"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:contentDescription="favorites"-->
+<!--            android:onClick="favouriteActivity"-->
+<!--            android:drawableTop="@drawable/favourites_icon"-->
+<!--            android:fontFamily="@font/mukta_semibold"-->
+<!--            android:text="Favorites"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18dp" />-->
+
+<!--        <Button-->
+<!--            style="@style/Widget.AppCompat.Button.Borderless"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1"-->
+<!--            android:contentDescription="playlist"-->
+<!--            android:drawableTop="@drawable/playlist_icon"-->
+<!--            android:fontFamily="@font/mukta_semibold"-->
+<!--            android:text="Playlist"-->
+<!--            android:onClick="playlistActivity"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18dp" />-->
+
+
+<!--    </LinearLayout>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

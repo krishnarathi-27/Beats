@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_back"
+    tools:context=".TempActivity">
+
+    <ImageView
+        android:id="@+id/loginBackground"
+        android:layout_width="577dp"
+        android:layout_height="295dp"
+        android:src="@drawable/loginbackground"
+        app:layout_constraintBottom_toTopOf="@id/guideline1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/beatsLogo"
+        android:layout_width="398dp"
+        android:layout_height="339dp"
+        android:src="@drawable/beatslogo"
+        app:layout_constraintBottom_toTopOf="@id/guideline1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tagLine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/mukta_semibold"
+        android:text="Make It Right"
+        android:textColor="#322F3D"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@id/guideline1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/guideline" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are logged in successfully!"
+        android:textColor="@color/white"
+        android:fontFamily="@font/mukta_semibold"
+        android:textSize="25sp"
+        app:layout_constraintTop_toBottomOf="@id/beatsLogo"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/guideline2"/>
+
+    <TextView
+        android:id="@+id/userID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/mukta"
+        android:text="1245632"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline2" />
+
+    <TextView
+        android:id="@+id/emailID"
+        android:fontFamily="@font/mukta"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:text="abc@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userID"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/continueToNextPage"
+        android:layout_width="198dp"
+        android:layout_height="62dp"
+        android:fontFamily="@font/mukta"
+        android:text="Continue"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toTopOf="@id/logOut"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailID"
+        android:onClick="nextPage"/>
+
+    <Button
+        android:id="@+id/logOut"
+        android:layout_width="198dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="60dp"
+        android:fontFamily="@font/mukta"
+        android:text="Logout"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/continueToNextPage" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

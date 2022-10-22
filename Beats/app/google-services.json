@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "583058706136",
+    "project_id": "beats-7e002",
+    "storage_bucket": "beats-7e002.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:583058706136:android:fee5d0aa3d9b96356311ad",
+        "android_client_info": {
+          "package_name": "com.music.beats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "583058706136-0pbd8v2rk0vo005jm903c1tgo8afc6fo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.music.beats",
+            "certificate_hash": "39c7f9d65b92e19179f382e039b4e6999ddaf6e4"
+          }
+        },
+        {
+          "client_id": "583058706136-o1e9lnuvm3g4gdq11h34gdkpe0e1fq3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-RsG27sk29fXCUwzSL1E3j7rU28YGVBM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "583058706136-o1e9lnuvm3g4gdq11h34gdkpe0e1fq3r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
